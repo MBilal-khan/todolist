@@ -12,7 +12,11 @@ export default class App extends Component {
       to_do_list: [],
       swap: 0,
       indexHandle: '',
-     
+      indexHandle1: '',
+      indexHandle2: '',
+      indexHandle2: '',
+      indexHandle2: '',
+      indexHandle2: '',
    };
    handleChange = (e) => {
       // console.log(e.target.value);
