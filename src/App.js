@@ -13,6 +13,8 @@ export default class App extends Component {
     to_do_list: [],
     swap: 0,
     indexHandle: "",
+    indexHandle1: "",
+    indexHandle2: "",
   };
   handleChange = (e) => {
     // console.log(e.target.value);
@@ -83,7 +85,7 @@ export default class App extends Component {
 
                 {this.state.swap == 0 && (
                   <button
-                    className="text-white py-3 xs:px-5 xs:py-2 px-8 border 
+                    className="text-white py-3 xs:px-5 xs:py-2 px-8 border
               rounded-md hover:scale-105 duration-1000 bg-gradient-to-r from-orange-700 xs to-slate-800 "
                     onClick={this.handleClick}
                   >
@@ -92,7 +94,7 @@ export default class App extends Component {
                 )}
                 {this.state.swap == 1 && (
                   <button
-                    className="text-white py-3 xs:px-5 xs:py-2 px-8 border rounded-md 
+                    className="text-white py-3 xs:px-5 xs:py-2 px-8 border rounded-md
                 hover:scale-105 duration-1000 bg-gradient-to-r from-orange-700 to-slate-800  "
                     onClick={this.handleUpdate}
                   >
