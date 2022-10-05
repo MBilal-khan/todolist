@@ -15,6 +15,7 @@ export default class App extends Component {
     indexHandle: "",
     indexHandle1: "",
     indexHandle2: "",
+    indexHandle2: "",
   };
   handleChange = (e) => {
     // console.log(e.target.value);
